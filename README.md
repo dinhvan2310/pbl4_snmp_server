@@ -1,10 +1,7 @@
 # Table of Contents
 
 1. [Tai liệu về OID](#tailieuveoid)
-2. [Installation](#installation)
-3. [Usage](#usage)
-4. [Contributing](#contributing)
-5. [License](#license)
+2. [OID Repository](#oidrepository)
 
 ## Tài liệu về OID <a name="tailieuveoid"></a>
 
@@ -24,18 +21,11 @@
 
 
 
-## Installation <a name="installation"></a>
+## OID Repository <a name="oidrepository"></a>
 
-[Ở đây là nội dung hướng dẫn cài đặt]
+- [OID Repository](http://www.oid-info.com/cgi-bin/display?tree=)
 
-## Usage <a name="usage"></a>
+   > Cái ni để tra thông tin toàn bộ mã OID, nhiều lắm, éo biết nữa, cuối kì làm báo cáo rồi tính
 
-[Ở đây là nội dung hướng dẫn sử dụng]
+  ![Tree Display](./src/image/Tree%20display.png)
 
-## Contributing <a name="contributing"></a>
-
-[Ở đây là nội dung hướng dẫn đóng góp]
-
-## License <a name="license"></a>
-
-[Ở đây là thông tin về giấy phép]
