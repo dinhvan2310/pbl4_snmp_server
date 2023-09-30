@@ -3,6 +3,7 @@
 1. [Tai liệu về OID](#tailieuveoid)
 2. [OID Repository](#oidrepository)
 3. [Cấu hình SNMP trên router/switch](#cauhinhsnmp)
+4. [Tài liệu về giao thức SNMP](#tailieuvesnmp)
 
 ## Tài liệu về OID <a name="tailieuveoid"></a>
 
@@ -34,3 +35,8 @@
 ## Cấu hình SNMP trên router/switch <a name="cauhinhsnmp"></a>
 
 - [Cấu hình SNMP trên router/switch](https://sss.net.vn/docs/cau-hinh-snmp-tren-router-switch-dua-tren-ios-cua-cisco)
+
+
+## Tài liệu về giao thức SNMP <a name="tailieuvesnmp"></a>
+
+-[Đồ án tìm hiểu giao thức SNMP và phần mềm quản lý hệ thống mạng CiscoWorks LAN Management Solution_851612](./Đồ án tìm hiểu giao thức SNMP và phần mềm quản lý hệ thống mạng CiscoWorks LAN Management Solution_851612.pdf)
