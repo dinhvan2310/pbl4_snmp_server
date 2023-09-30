@@ -39,4 +39,4 @@
 
 ## Tài liệu về giao thức SNMP <a name="tailieuvesnmp"></a>
 
--[Đồ án tìm hiểu giao thức SNMP và phần mềm quản lý hệ thống mạng CiscoWorks LAN Management Solution_851612](./Đồ án tìm hiểu giao thức SNMP và phần mềm quản lý hệ thống mạng CiscoWorks LAN Management Solution_851612.pdf)
+-[Đồ án tìm hiểu giao thức SNMP và phần mềm quản lý hệ thống mạng CiscoWorks LAN Management Solution_851612](Đồ án tìm hiểu giao thức SNMP và phần mềm quản lý hệ thống mạng CiscoWorks LAN Management Solution_851612.pdf)
