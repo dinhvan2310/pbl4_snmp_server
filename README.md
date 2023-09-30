@@ -2,6 +2,7 @@
 
 1. [Tai liệu về OID](#tailieuveoid)
 2. [OID Repository](#oidrepository)
+3. [Cấu hình SNMP trên router/switch](#cauhinhsnmp)
 
 ## Tài liệu về OID <a name="tailieuveoid"></a>
 
@@ -29,3 +30,7 @@
 
   ![Tree Display](./src/image/Tree%20display.png)
 
+
+## Cấu hình SNMP trên router/switch <a name="cauhinhsnmp"></a>
+
+- [Cấu hình SNMP trên router/switch](https://sss.net.vn/docs/cau-hinh-snmp-tren-router-switch-dua-tren-ios-cua-cisco)
