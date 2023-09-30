@@ -4,6 +4,7 @@
 2. [OID Repository](#oidrepository)
 3. [Cấu hình SNMP trên router/switch](#cauhinhsnmp)
 4. [Tài liệu về giao thức SNMP](#tailieuvesnmp)
+5. [Cấu hình snmp agent cho PC](#cauhinhsnmpchopc)
 
 ## Tài liệu về OID <a name="tailieuveoid"></a>
 
@@ -40,3 +41,7 @@
 ## Tài liệu về giao thức SNMP <a name="tailieuvesnmp"></a>
 
 -[Đồ án tìm hiểu giao thức SNMP và phần mềm quản lý hệ thống mạng CiscoWorks LAN Management Solution_851612](./Đồ%20án%20tìm%20hiểu%20giao%20thức%20SNMP%20và%20phần%20mềm%20quản%20lý%20hệ%20thống%20mạng%20CiscoWorks%20LAN%20Management%20Solution_851612.pdf)
+
+## Cấu hình snmp agent chp pc <a name="cauhinhsnmpchppc"></a>
+
+- [Hướng dẫn cách cài đặt và cấu hình snmp trên win 10](https://blog.kdata.vn/huong-dan-cach-cai-dat-va-cau-hinh-snmp-tren-windows-10-7346/)
