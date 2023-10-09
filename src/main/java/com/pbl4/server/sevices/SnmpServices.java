@@ -1,5 +1,5 @@
 package com.pbl4.server.sevices;
-import com.pbl4.server.DTO.snmpDTO;
+import com.pbl4.server.model.snmpDTO;
 import org.snmp4j.CommunityTarget;
 import org.snmp4j.PDU;
 import org.snmp4j.Snmp;
@@ -15,7 +15,7 @@ import org.snmp4j.transport.DefaultUdpTransportMapping;
 import org.springframework.stereotype.Service;
 
 @Service
-public class snmpServices {
+public class SnmpServices {
 
 
     public snmpDTO performSNMPGet(String ipAddress, String oid, String community) {

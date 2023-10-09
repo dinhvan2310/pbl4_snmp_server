@@ -1,4 +1,4 @@
-package com.pbl4.server.DTO;
+package com.pbl4.server.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
