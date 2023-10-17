@@ -14,22 +14,23 @@ import java.util.List;
 // @Document cho MongoDb, collection = "devices" đặt tên trong csdl
 @Document(collection = "devices")
 @Data
+@Builder
 public class DeviceEntity {
     @Id
-    private int Id;
-    private DeviceSetting deviceSettings;
+    private String _id;
+    private DeviceSettings deviceSettings;
     private List<DeviceOID> deviceOIDS;
 
 
-    // Nest Class
     @Data
     @Builder
-    public static class DeviceSetting{
+    public static class DeviceSettings{
         private String deviceName;
         private String deviceType;
         private String deviceIpv4;
         private int priority;
-        private int timeOut;
+        private String deviceIcon;
+        private boolean monitorStatus;
         private String snmpVersion;
         private String snmpCommunity;
         private int snmpPort;
@@ -38,6 +39,7 @@ public class DeviceEntity {
     @Data
     @Builder
     public static class DeviceOID{
+        private int deviceOIDId;
         private List<DeviceOIDValue> deviceOIDValues;
         private DeviceOIDSettings deviceOIDSettings;
         private List<DeviceOID> childDeviceOID;
@@ -57,6 +59,7 @@ public class DeviceEntity {
         private String oidKey;
         private int priority;
         private String valueType;
+        private String status;
         private String unit;
     }
 }

@@ -1,5 +1,5 @@
 package com.pbl4.server.sevices;
-import com.pbl4.server.model.snmpDTO;
+import com.pbl4.server.model.SnmpValueModel;
 import org.snmp4j.CommunityTarget;
 import org.snmp4j.PDU;
 import org.snmp4j.Snmp;
@@ -18,7 +18,7 @@ import org.springframework.stereotype.Service;
 public class SnmpServices {
 
 
-    public snmpDTO performSNMPGet(String ipAddress, String oid, String community) {
+    public SnmpValueModel performSNMPV2cGet(String ipAddress, String oid, String community) {
         try {
             // Tạo địa chỉ để kết nối đến agent SNMP
             Address targetAddress = GenericAddress.parse("udp:" + ipAddress + "/161");
@@ -48,16 +48,16 @@ public class SnmpServices {
                 if (responsePDU.getErrorStatus() == PDU.noError) {
                     // Lấy giá trị từ phản hồi
                     VariableBinding vb = responsePDU.getVariableBindings().get(0);
-                    return new snmpDTO(ipAddress, oid, community, vb.getVariable().toString());
+                    return new SnmpValueModel(ipAddress, oid, community, vb.getVariable().toString(), true);
                 } else {
-                    return new snmpDTO(ipAddress, oid, community, "Error: " + responsePDU.getErrorStatusText());
+                    return new SnmpValueModel(ipAddress, oid, community, "Error: " + responsePDU.getErrorStatusText(), false);
                 }
             } else {
-                return new snmpDTO(ipAddress, oid, community, "Error: Timeout exceeded");
+                return new SnmpValueModel(ipAddress, oid, community, "Error: Timeout exceeded", false);
             }
         } catch (Exception e) {
             e.printStackTrace();
-            return new snmpDTO(ipAddress, oid, community, "Error: " + e.getMessage());
+            return new SnmpValueModel(ipAddress, oid, community, "Error: " + e.getMessage(), false);
         }
     }
 }
